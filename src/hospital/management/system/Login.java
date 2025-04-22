@@ -46,8 +46,7 @@ public class Login extends JFrame implements ActionListener {
         b1=new JButton("Login");
         b1.setBounds(40,140,120,30);
         b1.setFont(new Font("serif",Font.BOLD,15));
-      //  b1.setBackground(Color.BLACK);
-       // b1.setForeground(Color.WHITE);
+
         b1.addActionListener(this);
         add(b1);
 
