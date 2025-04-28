@@ -83,7 +83,7 @@ public class Reception extends JFrame{
         btn5.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                new ALL_Patient_Info();
             }
         });
 
@@ -139,7 +139,8 @@ public class Reception extends JFrame{
         btn10.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                setVisible(false);
+                new Login();
             }
         });
 
