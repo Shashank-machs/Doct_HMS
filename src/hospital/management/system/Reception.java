@@ -116,7 +116,7 @@ public class Reception extends JFrame{
         btn8.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                new Ambulence();
             }
         });
 
@@ -127,7 +127,7 @@ public class Reception extends JFrame{
         btn9.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                new search_room();
             }
         });
 
