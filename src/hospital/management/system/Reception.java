@@ -91,10 +91,10 @@ public class Reception extends JFrame{
         btn6.setBounds(260,105,200,30);
         btn6.setBackground(new Color(246,215,118));
         panel1.add(btn6);
-        btn3.addActionListener(new ActionListener() {
+        btn6.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                new patient_discharge();
             }
         });
 
@@ -105,7 +105,7 @@ public class Reception extends JFrame{
         btn7.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                new update_patient_details();
             }
         });
 
