@@ -3,29 +3,20 @@ Creating a Hospital Management System using Java Swing with JFrames is a good be
 
 --> Hospital Management System – Key Features
 
-Login Page
-
-Dashboard
-
-Add new Patient
-
-Update Patient details
-
-Patient Discharge
-
-Search Rooms
-
-Rooms Availability
-
-Ambulenct availability
-
-All Patient Information
-
-Departments
-
-Employees Information
-
-Exit / Logout!
+| File Name                     | Likely Purpose                                                                         |
+| ----------------------------- | -------------------------------------------------------------------------------------- |
+| `ALL_Patient_Info.java`       | View or manage all patients' data. Likely includes a `JTable` showing patient records. |
+| `Ambulence.java`              | Handles ambulance-related records or requests.                                         |
+| `Department.java`             | Manages hospital departments like Cardiology, Neurology, etc.                          |
+| `Employee_info.java`          | Store/manage employee (doctor, nurse, admin) details.                                  |
+| `Login.java`                  | Login screen to access the dashboard.                                                  |
+| `NEW_PATIENT.java`            | Form to register a new patient into the system.                                        |
+| `Reception.java`              | Receptionist module/dashboard for quick access to patient/room management.             |
+| `Room.java`                   | Room booking and availability management.                                              |
+| `conn.java`                   | JDBC database connection utility class.                                                |
+| `patient_discharge.java`      | Handles discharging of patients and final updates to records.                          |
+| `search_room.java`            | Search functionality for room availability or patient location.                        |
+| `update_patient_details.java` | Update/edit patient information in the database.                                       |
 
 
 -> Tools & Technologies
